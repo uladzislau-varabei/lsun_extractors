@@ -282,13 +282,6 @@ if __name__ == '__main__':
 
     #create_lsun(images_dir, target_dir, resolution=resolution, max_images=max_images, jpg_quality=jpg_quality)
 
-    """
-    db_keys = get_all_keys_dict(images_dir)
-    for k in db_keys:
-        print(f'key = {k}, len = {len(db_keys[k])}')
-    exit(0)
-    """
-
     width = 512
     height = 384
     jpg_quality = 85
